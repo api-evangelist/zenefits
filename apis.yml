@@ -1,0 +1,75 @@
+aid: zenefits
+name: TriNet Zenefits
+description: >-
+  TriNet Zenefits (formerly Zenefits) is an all-in-one cloud HR platform
+  for small and medium-sized businesses, providing payroll, benefits
+  administration, time and scheduling, hiring and onboarding, performance
+  management, and compliance in a single system of record. Acquired by
+  TriNet in 2022, the platform combines self-service HR software with
+  optional advisory services. TriNet Zenefits exposes a REST API at
+  https://api.zenefits.com for programmatic access to people, companies,
+  employments, compensation, payroll, and time-off resources, secured via
+  OAuth 2.0.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Human Resources
+  - HRIS
+  - Payroll
+  - Benefits Administration
+  - Onboarding
+  - Time Tracking
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/zenefits/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: zenefits:rest-api
+    name: TriNet Zenefits REST API
+    description: >-
+      REST API providing programmatic access to people, companies,
+      locations, employments, compensation, time-off, paystubs, and journal
+      data inside a Zenefits account. Authentication uses OAuth 2.0 with
+      scoped access tokens issued via https://secure.zenefits.com/oauth2/token/.
+      Developers must register an OAuth application to obtain a Client ID
+      and Client Secret and request appropriate scopes.
+    humanURL: https://developers.zenefits.com
+    baseURL: https://api.zenefits.com
+    tags:
+      - HRIS
+      - People
+      - Companies
+      - Employments
+      - Compensation
+      - Payroll
+    properties:
+      - type: Documentation
+        url: https://developers.zenefits.com
+      - type: Getting Started
+        url: https://developers.zenefits.com/docs/getting-started
+      - type: Authentication
+        url: https://developers.zenefits.com/reference/auth
+      - type: OAuth Scopes
+        url: https://apidocs.trinet.com/oauth-scopes
+
+common:
+  - type: Website
+    url: https://www.trinet.com/products/zenefits
+  - type: Documentation
+    url: https://developers.zenefits.com
+  - type: Pricing
+    url: https://www.zenefits.com/pricing
+  - type: Sign Up
+    url: https://secure.zenefits.com/accounts/register
+  - type: Support
+    url: https://help.zenefits.com
+  - type: Developer Portal
+    url: https://developers.zenefits.com
+  - type: TriNet API Portal
+    url: https://apidocs.trinet.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/trinet
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
