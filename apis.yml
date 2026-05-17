@@ -46,7 +46,7 @@ apis:
     properties:
       - type: Documentation
         url: https://developers.zenefits.com
-      - type: Getting Started
+      - type: GettingStarted
         url: https://developers.zenefits.com/docs/getting-started
       - type: Authentication
         url: https://developers.zenefits.com/reference/auth
@@ -60,7 +60,7 @@ common:
     url: https://developers.zenefits.com
   - type: Pricing
     url: https://www.zenefits.com/pricing
-  - type: Sign Up
+  - type: SignUp
     url: https://secure.zenefits.com/accounts/register
   - type: Support
     url: https://help.zenefits.com
