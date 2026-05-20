@@ -54,6 +54,8 @@ apis:
         url: https://apidocs.trinet.com/oauth-scopes
 
 common:
+  - type: GitHubOrganization
+    url: https://github.com/zenefits
   - type: Website
     url: https://www.trinet.com/products/zenefits
   - type: Documentation
