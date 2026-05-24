@@ -72,6 +72,8 @@ common:
     url: https://apidocs.trinet.com
   - type: LinkedIn
     url: https://www.linkedin.com/company/trinet
+  - type: LLMsTxt
+    url: https://developers.zenefits.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
