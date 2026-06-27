@@ -62,17 +62,17 @@ common:
     url: https://developers.zenefits.com
   - type: Pricing
     url: https://www.zenefits.com/pricing
-  - type: SignUp
+  - type: Signup
     url: https://secure.zenefits.com/accounts/register
   - type: Support
     url: https://help.zenefits.com
-  - type: Developer Portal
+  - type: DeveloperPortal
     url: https://developers.zenefits.com
   - type: TriNet API Portal
     url: https://apidocs.trinet.com
   - type: LinkedIn
     url: https://www.linkedin.com/company/trinet
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://developers.zenefits.com/llms.txt
 maintainers:
   - FN: Kin Lane
