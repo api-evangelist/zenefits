@@ -1,0 +1,35 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.trinet.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 19 15:53:52 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: developers.zenefits.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  4 07:53:48 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: api.zenefits.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Oct 30 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: trinet.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: zenefits.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

@@ -54,6 +54,8 @@ apis:
         url: https://apidocs.trinet.com/oauth-scopes
 
 common:
+  - type: DomainSecurity
+    url: security/zenefits-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/zenefits
   - type: Website
